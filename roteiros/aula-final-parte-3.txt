@@ -1,0 +1,125 @@
+E aqui existe outro erro clássico.
+
+Quando alguém ouve inibição cortical, pensa imediatamente que alguma coisa está errada.
+
+Só que o córtex precisa inibir.
+
+Se o sistema motor apenas excitasse tudo o tempo inteiro, você não teria movimento coordenado. Você teria ruído.
+
+Para pegar um copo, você precisa selecionar uma ação, suprimir ações concorrentes, regular a intensidade do comando, controlar o timing e interromper o movimento quando necessário.
+
+Então inibição não é inimiga da função. Inibição apropriada faz parte da função.
+
+No córtex motor existem circuitos excitatórios e inibitórios. Um neurotransmissor central nessa conversa é o GABA, o ácido gama-aminobutírico.
+
+Mas de novo: não existe uma única inibição cortical. Nós temos diferentes fenômenos e diferentes formas de investigá-los.
+
+Uma das ferramentas mais utilizadas é a estimulação magnética transcraniana, a TMS.
+
+Imagine que eu aplico um estímulo magnético sobre o córtex motor e registro a resposta no músculo.
+
+Essa resposta muscular é chamada de potencial evocado motor, ou MEP.
+
+O MEP depende da excitabilidade de uma cadeia inteira: córtex, vias corticospinais, circuitos espinais, motoneurônios e músculo.
+
+Então MEP maior não significa automaticamente cérebro melhor. E MEP menor não significa automaticamente cérebro pior.
+
+Ele é uma medida do estado daquela cadeia dentro das condições daquele protocolo.
+
+Agora vamos para a SICI.
+
+SICI significa short-interval intracortical inhibition, ou inibição intracortical de intervalo curto.
+
+Em vez de dar apenas um estímulo, pesquisadores usam uma combinação de estímulos com intervalo muito pequeno.
+
+Um estímulo condicionante é aplicado antes do estímulo teste. Se a resposta ao estímulo teste fica menor em determinadas condições, inferimos participação de circuitos inibitórios intracorticais.
+
+Farmacologia e outros experimentos sustentam uma associação importante entre SICI e receptores GABA-A.
+
+Mas presta atenção na linguagem.
+
+SICI não é uma seringa que entra no cérebro e mede quantos miligramas de GABA existem ali.
+
+SICI é uma medida fisiológica indireta de um circuito.
+
+Essa diferença parece pequena, mas cientificamente é enorme.
+
+Agora a LICI.
+
+LICI significa long-interval intracortical inhibition, inibição intracortical de intervalo longo.
+
+Aqui os intervalos são maiores e há associação importante, embora não exclusiva, com mecanismos mediados por GABA-B.
+
+Outra medida interessante é o período silencioso cortical.
+
+Imagine uma pessoa mantendo uma contração voluntária. Você registra eletromiografia. Aplica TMS. Surge uma resposta e depois existe um período em que a atividade eletromiográfica é suprimida.
+
+Essa supressão é o chamado período silencioso.
+
+A parte inicial pode ter participação espinal. A parte mais tardia apresenta contribuição cortical importante e é associada a mecanismos GABA-B.
+
+Agora eu quero juntar tudo isso numa situação real.
+
+Pessoa com reconstrução do ligamento cruzado anterior. Meses depois da cirurgia, você percebe déficit persistente de força do quadríceps.
+
+Você mede a área muscular e ela melhorou bastante. Só que o torque ainda não acompanhou completamente.
+
+Qual seria uma interpretação ruim?
+
+Precisa hipertrofiar mais.
+
+Pode ser verdade que ainda precise. Mas essa frase sozinha não responde à pergunta.
+
+Uma interpretação melhor seria perguntar: quanto desse déficit é capacidade contrátil? Quanto é ativação voluntária? Quanto é estratégia motora? Quanto é mecânica? Existem alterações persistentes no sistema sensório-motor?
+
+Estudos com TMS em pessoas com lesão ou reconstrução do LCA encontram alterações em medidas corticospinais e intracorticais.
+
+Só que existe uma pegadinha importante.
+
+Você não pode resumir toda essa literatura dizendo: depois do LCA existe mais inibição cortical.
+
+Por quê?
+
+Porque medidas diferentes podem se comportar de maneiras diferentes. Limiar motor, MEP, SICI, período silencioso e outras variáveis não medem a mesma coisa.
+
+Em alguns experimentos com derrame articular, por exemplo, foram observadas respostas corticais que não combinam com uma narrativa simples de mais inibição.
+
+Então o modelo mais adequado é: uma articulação alterada muda a entrada sensorial e o sistema motor pode reorganizar seu estado em múltiplos níveis.
+
+Essa reorganização pode ser adaptativa em algum momento, maladaptativa em outro, ou simplesmente refletir uma estratégia diferente.
+
+Agora eu quero fazer uma pausa conceitual.
+
+Nós temos três fenômenos.
+
+Primeiro: inibição recíproca.
+
+Aqui a pergunta é: como o sistema coordena agonista e antagonista? O circuito clássico que discutimos envolve aferência Ia, interneurônio inibitório e motoneurônio do antagonista.
+
+Segundo: AMI.
+
+Aqui a pergunta é: uma articulação alterada está interferindo na capacidade de ativar voluntariamente o músculo? A resposta pode envolver aferência articular, circuitos espinais e níveis supraspinais.
+
+Terceiro: inibição cortical.
+
+Aqui a pergunta é: como redes do córtex estão regulando seleção, ganho, timing e interrupção do output motor?
+
+São coisas diferentes. Mas elas conversam.
+
+O corpo não tem uma gaveta para medula e outra para córtex. Existe um loop.
+
+Córtex manda informação para baixo. Medula processa. Motoneurônio ativa músculo. Músculo produz movimento. Receptores detectam o que aconteceu. Informação sobe. O cérebro atualiza o comando.
+
+É um sistema circular.
+
+Agora vamos transformar isso em prática de reabilitação.
+
+Imagine um paciente no início da reabilitação depois de uma cirurgia de joelho.
+
+Você pede extensão de joelho e observa contração ruim do quadríceps.
+
+O erro seria pensar imediatamente: vou colocar mais peso, porque músculo fraco precisa de sobrecarga.
+
+Sobrecarga é fundamental. Mas primeiro você precisa perguntar se essa pessoa consegue realmente direcionar ativação suficiente para o tecido que você quer sobrecarregar.
+
+Se existe AMI importante, aumentar a carga externa não garante aumento proporcional da carga interna no quadríceps.
