@@ -1,0 +1,61 @@
+AULA V3 — NEUROFISIOLOGIA DA INIBIÇÃO MOTORA: DA MICROCIRCUITARIA ESPINAL À REORGANIZAÇÃO CORTICOSPINAL
+
+Quero começar por um problema que, para quem trabalha com força e reabilitação, é mais profundo do que parece: quando o torque cai depois de uma lesão articular, onde exatamente está o déficit? No aparato contrátil? No recrutamento de unidades motoras? Na excitabilidade do pool de motoneurônios alfa? Na transmissão das aferências? Nos interneurônios espinais? No drive corticospinal? Ou em vários desses níveis simultaneamente?
+
+Essa pergunta muda completamente a leitura da fraqueza. Torque é uma variável de saída. Ele não identifica sozinho o mecanismo que o produziu.
+
+Por isso, nesta aula, inibição não será tratada como sinônimo de “desligamento”. Em neurofisiologia, inibição é uma alteração na probabilidade de disparo ou na eficácia da transmissão dentro de um circuito. Ela pode ser pré-sináptica, modificando quanto transmissor um terminal libera; pós-sináptica, modificando a excitabilidade da célula que recebe o sinal; recorrente, recíproca, não recíproca, intracortical, inter-hemisférica. Portanto, antes de dizer que um músculo está inibido, precisamos perguntar: qual circuito, em qual nível, demonstrado por qual medida?
+
+Vamos começar na medula.
+
+O fuso muscular contém fibras intrafusais e recebe inervação sensorial primária do grupo Ia e secundária do grupo II. A aferência Ia é extremamente sensível à velocidade de mudança do comprimento, embora também carregue informação de comprimento. Quando ela entra pela raiz dorsal, distribui colaterais por múltiplos circuitos. Um ramo pode estabelecer conexão excitatória monossináptica com motoneurônios alfa do músculo homônimo e sinergistas. Outro ramo recruta interneurônios inibitórios Ia que projetam para pools de motoneurônios antagonistas.
+
+Esse segundo circuito é a base clássica da inibição recíproca dissináptica.
+
+Mas “dissináptica” precisa ser entendido literalmente. Entre a aferência Ia e o motoneurônio antagonista existe um interneurônio. A primeira sinapse é Ia-interneurônio; a segunda, interneurônio-motoneurônio. O sinal inibitório final sobre o motoneurônio reduz sua excitabilidade, mas o estado do motoneurônio depende da soma temporal e espacial de dezenas de milhares de entradas. Portanto, receber IPSPs de interneurônios Ia não equivale a ficar eletricamente silencioso.
+
+É exatamente por isso que coativação e inibição recíproca coexistem.
+
+Durante uma tarefa que exige rigidez articular, o antagonista pode receber inibição recíproca e simultaneamente receber drive descendente excitatório suficiente para continuar descarregando. O sistema não escolhe entre “inibição recíproca” ou “coativação”; ele regula o ganho relativo de múltiplos inputs.
+
+E essa regulação é dependente da tarefa.
+
+O interneurônio Ia não é um relé passivo. Ele recebe controle descendente, aferências segmentares e influências de outros interneurônios. A magnitude da inibição recíproca pode mudar conforme postura, fase do movimento, velocidade, contração voluntária e demanda de estabilidade. Isso é fundamental: o reflexo espinal não é uma máquina fixa; ele é um circuito cujo ganho é configurado pelo estado funcional do sistema.
+
+Agora entra uma distinção que costuma ser negligenciada: inibição pré-sináptica de aferentes Ia não é a mesma coisa que inibição recíproca Ia.
+
+Na inibição recíproca clássica, o interneurônio inibitório altera o motoneurônio antagonista pós-sinapticamente. Na modulação pré-sináptica, circuitos axo-axônicos alteram a eficácia com que o terminal aferente transmite informação. Historicamente isso foi descrito como primary afferent depolarization, embora a fisiologia humana seja mais complexa do que o esquema didático tradicional. O ponto funcional é: o sistema pode regular não apenas a excitabilidade do neurônio de saída, mas também o ganho da informação sensorial antes que ela exerça plenamente seu efeito sobre o circuito.
+
+Isso ajuda a entender por que o H-reflex precisa ser interpretado com cuidado.
+
+O H-reflex é evocado eletricamente ao recrutar aferentes Ia de um nervo misto. Essas aferências entram na medula e excitam motoneurônios, gerando uma resposta muscular. A M-wave, em contraste, decorre da ativação direta de axônios motores periféricos. Quando normalizamos H para M, tentamos controlar parcialmente diferenças periféricas, mas ainda assim H-reflex não é uma leitura pura de “inibição espinal”. Ele depende da excitabilidade do pool motor, da eficácia sináptica Ia, de modulação pré-sináptica, do histórico de ativação, da postura, do nível de contração e do recrutamento das fibras pelo estímulo.
+
+Portanto, se Hmax cai depois de derrame experimental, a conclusão correta não é simplesmente “a medula ficou mais inibida”. A conclusão é que a eficácia da via reflexa medida naquele protocolo foi reduzida; então precisamos de desenho experimental adicional para localizar o mecanismo.
+
+Agora vamos para a AMI.
+
+Arthrogenic muscle inhibition, ou inibição muscular artrogênica, descreve uma redução da capacidade de ativação voluntária associada a uma articulação lesionada ou alterada. O ponto decisivo é que o déficit não exige dano primário do músculo nem interrupção do nervo periférico.
+
+A articulação é uma fonte sensorial. Cápsula, ligamentos, sinóvia e tecidos periarticulares contêm terminações aferentes com propriedades diferentes. Alterações mecânicas, derrame, inflamação, laxidez e dano tecidual mudam o padrão de descarga dessas aferências. Em condições inflamatórias, aferentes de maior limiar, incluindo grupos III e IV, também podem aumentar sua contribuição. Portanto, o sinal que chega ao sistema nervoso depois de uma lesão não é simplesmente “mais dor”; é um vetor sensorial diferente.
+
+Essa informação entra em circuitos segmentares e ascendentes. E aqui precisamos abandonar a ideia de que AMI é um reflexo único.
+
+A literatura mecanística discute pelo menos quatro famílias: vias inibitórias do grupo I não recíprocas, reflexo flexor, alterações do sistema gama e modulação pré-sináptica, além das mudanças supraspinais que aparecem com a persistência do problema.
+
+As vias do grupo I não recíprocas são particularmente interessantes. O modelo clássico associava aferentes Ib dos órgãos tendinosos de Golgi a interneurônios inibitórios autogênicos. Hoje sabemos que a integração Ib é dependente da tarefa e recebe forte controle descendente; não é simplesmente um “reflexo protetor que desliga o músculo quando a tensão sobe”. No contexto de aferência articular alterada, interneurônios que integram inputs do grupo I podem contribuir para modificar o output do quadríceps.
+
+O reflexo flexor é outra rede polissináptica, altamente convergente. Aferências cutâneas, musculares e articulares podem convergir sobre interneurônios que reorganizam padrões de flexores e extensores. Chamar isso de um único reflexo de retirada é simplificar uma rede que participa da configuração motora dependente do contexto.
+
+E temos o gamma loop.
+
+Motoneurônios gama ajustam a tensão das fibras intrafusais e, portanto, a sensibilidade do fuso durante mudanças de comprimento e contração. A coativação alfa-gama permite que o fuso continue informativo enquanto o músculo encurta. Se a regulação gama muda, a aferência Ia e a contribuição reflexa ao pool alfa podem mudar. Essa é uma hipótese plausível para parte da AMI, mas não existe justificativa para transformar o gamma loop na explicação universal.
+
+Agora veja a elegância do modelo de derrame experimental.
+
+Você injeta solução salina na articulação do joelho. O quadríceps não foi lesionado. O nervo femoral não foi cortado. Ainda assim, respostas reflexas e ativação podem se alterar. Isso é uma demonstração causal importante: alterar o estado da articulação, por si só, é capaz de modificar o sistema neuromuscular.
+
+Só que o mecanismo não termina na medula.
+
+Aferência articular alterada modifica o input ascendente para estruturas supraspinais. Se isso persiste, o sistema passa a operar sob uma distribuição diferente de informação sensorial, de uso do membro e de erro motor. Plasticidade passa a fazer parte da história.
+
+É por isso que a AMI deve ser entendida como processo sensório-motor multinível, e não como “quadríceps desligado”.
