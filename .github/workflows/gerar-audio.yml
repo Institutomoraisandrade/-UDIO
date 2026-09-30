@@ -1,4 +1,4 @@
-name: Gerar aula completa AMI e inibicao
+name: Gerar aula V3 avancada AMI e inibicao
 
 on:
   workflow_dispatch:
@@ -10,43 +10,37 @@ on:
       rate:
         description: "Velocidade"
         required: true
-        default: "-5%"
+        default: "+20%"
 
 jobs:
   gerar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Instalar Edge TTS
         run: pip install -r requirements.txt
-
-      - name: Montar roteiro completo
+      - name: Montar roteiro V3
         run: |
-          cat roteiros/aula-final-parte-1.txt roteiros/aula-final-parte-2.txt roteiros/aula-final-parte-3.txt roteiros/aula-final-parte-4.txt > roteiros/aula-final-completa.txt
-          wc -w roteiros/aula-final-completa.txt
-
-      - name: Gerar MP3 completo
+          cat roteiros/v3-parte-1.txt roteiros/v3-parte-2.txt roteiros/v3-parte-3.txt > roteiros/aula-v3-completa.txt
+          wc -w roteiros/aula-v3-completa.txt
+      - name: Gerar MP3 V3
         run: |
           mkdir -p output
-          python src/generate.py --input roteiros/aula-final-completa.txt --output output/aula-AMI-inibicao-completa.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
-
+          python src/generate.py --input roteiros/aula-v3-completa.txt --output output/aula-V3-AMI-inibicao-avancada.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
       - name: Validar arquivo
         run: |
-          test -s output/aula-AMI-inibicao-completa.mp3
-          ls -lh output/aula-AMI-inibicao-completa.mp3
-
-      - name: Publicar aula
+          test -s output/aula-V3-AMI-inibicao-avancada.mp3
+          ls -lh output/aula-V3-AMI-inibicao-avancada.mp3
+      - name: Publicar aula V3
         uses: actions/upload-artifact@v4
         with:
-          name: aula-AMI-inibicao-AntonioNeural
-          path: output/aula-AMI-inibicao-completa.mp3
+          name: aula-V3-AMI-inibicao-avancada
+          path: output/aula-V3-AMI-inibicao-avancada.mp3
           if-no-files-found: error
           retention-days: 7
