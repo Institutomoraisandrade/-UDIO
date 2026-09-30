@@ -1,0 +1,113 @@
+AULA — INIBIÇÃO RECÍPROCA, INIBIÇÃO MUSCULAR ARTROGÊNICA E INIBIÇÃO CORTICAL
+
+Hoje eu quero que você esqueça, por alguns minutos, aquela ideia simples de que músculo fraco é músculo pequeno ou músculo que precisa de mais carga.
+
+Porque existe uma situação muito comum na prática. Você olha para uma pessoa depois de uma lesão no joelho. O quadríceps está ali. O nervo está ali. A pessoa entende o comando. Você pede: contrai o quadríceps. E mesmo assim a contração parece ruim. Às vezes você aumenta a carga e continua ruim. Às vezes a massa muscular nem caiu tanto, mas a força despencou.
+
+Então a primeira pergunta da nossa aula é: o que exatamente está impedindo esse músculo de produzir força?
+
+É aqui que entram três conceitos que parecem semelhantes, porque todos usam a palavra inibição, mas fisiologicamente são coisas diferentes: inibição recíproca, inibição muscular artrogênica e inibição cortical.
+
+Toda vez que eu apresentar um mecanismo, a gente vai responder quatro perguntas. Onde isso acontece? Quem manda o sinal? O que muda no sistema motor? E o que isso muda na prática?
+
+Quando você decide estender o joelho, o movimento não nasce no quadríceps. Antes de existir contração muscular, existe um comando neural. Áreas motoras do cérebro participam da organização do movimento. Esse comando desce por vias motoras, alcança a medula, interage com interneurônios e finalmente influencia os motoneurônios alfa.
+
+O motoneurônio alfa é uma peça importante aqui. O axônio dele sai da medula, chega ao músculo e participa da ativação das fibras musculares da unidade motora.
+
+Só que existe uma pegadinha. Esse caminho não é uma rua de mão única.
+
+Enquanto o cérebro envia informação para baixo, o corpo inteiro envia informação para cima. O músculo informa comprimento. Tendões informam tensão. A pele informa contato. A articulação informa pressão, movimento, posição e alterações mecânicas. O sistema motor está recebendo informação o tempo inteiro.
+
+Então força não é simplesmente músculo.
+
+Guarda esta ideia: a força que você observa é o resultado da capacidade do músculo, do acesso neural que o sistema consegue dar a esse músculo, das condições mecânicas e da estratégia motora escolhida naquele momento.
+
+Imagine duas pessoas com exatamente a mesma quantidade de massa muscular no quadríceps. Uma consegue recrutar muito bem esse tecido. A outra acabou de sofrer uma lesão importante no joelho e apresenta uma falha de ativação. As duas têm o mesmo motor, por assim dizer. Mas uma delas não consegue pisar no acelerador da mesma maneira.
+
+Isso já começa a explicar por que hipertrofia e força não são exatamente a mesma coisa.
+
+Agora precisamos entender uma estrutura que vai aparecer várias vezes nesta aula: o fuso muscular.
+
+O fuso muscular é um receptor sensorial dentro do músculo. Ele é sensível ao comprimento muscular e às mudanças desse comprimento. Entre as aferências associadas ao fuso, a fibra Ia é particularmente importante para o que vamos discutir.
+
+Quando uma aferência Ia entra na medula, ela não faz uma coisa só. Ela participa de circuitos diferentes. Pode facilitar o pool de motoneurônios relacionado ao músculo homônimo e aos sinergistas. E também pode recrutar interneurônios que diminuem a excitabilidade dos motoneurônios de músculos antagonistas.
+
+Pronto. Agora nós chegamos à primeira inibição da aula.
+
+Pensa numa dorsiflexão do tornozelo. Você quer puxar a ponta do pé para cima. O tibial anterior precisa produzir força. Ao mesmo tempo, o sistema motor pode reduzir parte da resistência neural produzida pelo antagonista, como o sóleo.
+
+Como isso acontece?
+
+A aferência Ia entra na medula. Um dos circuitos recruta um interneurônio inibitório Ia. Esse interneurônio influencia negativamente o pool de motoneurônios alfa do antagonista.
+
+Então eu tenho: aferente Ia, interneurônio inibitório, motoneurônio alfa do antagonista. Isso é uma das bases clássicas da inibição recíproca.
+
+Mas presta atenção porque aqui aparece um erro muito comum. Você já deve ter ouvido a frase: quando o agonista contrai, o antagonista relaxa.
+
+É uma frase didática, mas simplificada demais.
+
+Inibição recíproca não significa que o antagonista obrigatoriamente fica desligado. Significa que existe um input inibitório reduzindo a excitabilidade daquele pool motor.
+
+Por que essa diferença importa? Porque durante muitos movimentos nós precisamos de coativação.
+
+Imagine um agachamento pesado. Você realmente gostaria que todos os músculos antagonistas desaparecessem da equação? Não. Você precisa controlar trajetória, estabilidade, rigidez articular e desaceleração.
+
+Então o antagonista pode receber um sinal inibitório de um circuito e, ao mesmo tempo, receber drive excitatório de outros circuitos. O resultado final pode continuar sendo atividade muscular.
+
+Essa é uma ideia muito importante em neurofisiologia: o comportamento final de um neurônio depende da soma das entradas que ele está recebendo.
+
+Não existe um botão escrito inibição recíproca que desliga o tríceps quando o bíceps contrai. Existe uma rede.
+
+Você está fazendo uma rosca direta. O bíceps está produzindo torque de flexão do cotovelo. Circuitos espinais podem reduzir a excitabilidade dos extensores. Só que, principalmente quando você quer controlar a trajetória, desacelerar ou estabilizar a articulação, o tríceps pode continuar apresentando atividade.
+
+Então inibição recíproca e coativação não são conceitos incompatíveis.
+
+Agora eu quero mudar completamente o cenário.
+
+Em vez de um indivíduo saudável fazendo uma rosca direta, imagine uma pessoa que sofreu uma lesão do ligamento cruzado anterior. O joelho está com derrame. Existe inflamação. A pessoa tenta contrair o quadríceps e parece que alguma coisa não encaixa.
+
+A primeira interpretação costuma ser: o quadríceps está fraco. Tudo bem. Mas fraco por quê?
+
+Se eu disser apenas porque perdeu músculo, eu posso estar ignorando uma parte importante do problema.
+
+É aqui que entra a inibição muscular artrogênica, ou AMI.
+
+Artrogênica significa que o fenômeno está relacionado ao estado da articulação. A AMI é uma dificuldade neural de ativar voluntariamente de maneira completa a musculatura associada a uma articulação alterada ou lesionada.
+
+Perceba a diferença. Atrofia significa que eu perdi parte da capacidade contrátil do músculo. AMI significa que eu tenho dificuldade de acessar neuralmente toda a capacidade que está disponível.
+
+As duas coisas podem acontecer juntas. Aliás, frequentemente acontecem.
+
+Agora vamos construir o mecanismo sem pular etapa.
+
+Primeiro ocorre uma alteração articular. Pode existir lesão, cirurgia, derrame, inflamação, mudança de pressão intra-articular, alteração mecânica.
+
+Segundo: essa articulação começa a mandar informação diferente para o sistema nervoso.
+
+Terceiro: essa aferência alterada muda o estado dos circuitos sensório-motores.
+
+Quarto: mecanismos espinais e supraspinais podem modificar a capacidade de ativação do músculo.
+
+Quinto: a pessoa tenta contrair o quadríceps, mas a ativação voluntária pode não atingir aquilo que seria esperado.
+
+Sexto: ela produz menos força.
+
+Sétimo: como produz menos força e usa menos o músculo, agora sim criamos condições para perda de massa muscular.
+
+Percebe como a sequência é diferente de simplesmente dizer lesionou, ficou parado, atrofiou?
+
+A atrofia pode ser consequência e, depois, virar mais uma causa de fraqueza.
+
+Então você pode criar um ciclo: articulação alterada, aferência alterada, menor ativação, menor produção de força, menor exposição à carga, atrofia, mais fraqueza e estratégias compensatórias.
+
+Como sabemos que a articulação consegue interferir na ativação muscular mesmo sem machucar diretamente o músculo?
+
+Um dos modelos experimentais mais interessantes é o derrame articular. Pesquisadores conseguem aumentar artificialmente o volume dentro da articulação do joelho. O quadríceps não foi rasgado. O nervo periférico não foi cortado. Não foi necessário produzir uma lesão muscular. Mesmo assim, medidas de excitabilidade reflexa e de ativação podem mudar.
+
+Isso é muito importante, porque mostra que mudar o estado da articulação é suficiente para modificar o comportamento do sistema neuromuscular.
+
+Então quando alguém fala o cérebro desliga o músculo para proteger, eu entendo o que essa frase está tentando comunicar, mas fisiologicamente ela é pobre.
+
+Uma descrição melhor seria: o estado articular muda. A descarga aferente muda. Essa informação chega aos circuitos espinais e supraspinais. O estado de excitabilidade da rede muda. E o output motor final também muda.
+
+Isso é bem diferente de imaginar um interruptor.
