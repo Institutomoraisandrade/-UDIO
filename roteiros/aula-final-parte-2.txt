@@ -1,0 +1,77 @@
+Agora vamos aprofundar a AMI.
+
+Quando eu digo que a AMI pode envolver mecanismos espinais, existem pelo menos duas regiões conceituais que precisamos entender: mecanismos pré-sinápticos e pós-sinápticos.
+
+Pensa numa sinapse como uma conversa entre duas células. No lado pré-sináptico está o terminal que vai liberar neurotransmissor. No lado pós-sináptico está a célula que vai receber esse sinal.
+
+Se eu altero a quantidade de neurotransmissor liberada pelo terminal aferente, eu estou modulando a transmissão antes de o sinal atingir plenamente o neurônio seguinte. Isso é uma forma de modulação pré-sináptica.
+
+Se eu altero a excitabilidade do neurônio que recebe a informação, estou mudando o lado pós-sináptico.
+
+Na AMI, a literatura não aponta para uma única chavinha. Existem evidências de participação de diferentes mecanismos. Essa é uma das razões pelas quais tratamentos simplistas falham.
+
+Você não pode assumir que toda pessoa com dificuldade de ativação do quadríceps tem exatamente o mesmo gargalo neural.
+
+E aqui entra uma ferramenta de pesquisa que costuma confundir muita gente: o H-reflexo.
+
+Vamos construir isso sem decorar definição.
+
+Quando eu estimulo eletricamente um nervo periférico, posso produzir respostas diferentes.
+
+Uma delas é a onda M, ou M-wave. Ela representa, de maneira simplificada, uma resposta motora periférica produzida pela estimulação das fibras motoras.
+
+Outra resposta é o H-reflexo.
+
+No H-reflexo, a estimulação recruta aferentes, a informação entra na medula e participa de uma resposta reflexa que retorna ao músculo.
+
+Então o H-reflexo nos dá uma janela para investigar a excitabilidade de uma via reflexa espinal.
+
+Mas cuidado.
+
+H-reflexo baixo não significa automaticamente tem mais inibição. O tamanho da resposta pode ser influenciado por mecanismos pré-sinápticos, excitabilidade do pool de motoneurônios, posição, nível de contração e vários outros fatores.
+
+A medida é uma sonda do sistema. Não é um diagnóstico isolado.
+
+Essa forma de pensar vale para praticamente todas as medidas que vamos discutir.
+
+Agora lembra do fuso muscular?
+
+Além dos motoneurônios alfa, existe o sistema gama. Motoneurônios gama regulam as fibras intrafusais e ajudam a ajustar a sensibilidade do fuso.
+
+Existe uma hipótese de que alterações no chamado gamma loop possam contribuir para a AMI.
+
+A lógica seria que mudanças nesse sistema poderiam modificar a contribuição do fuso para a excitabilidade do pool motor.
+
+É plausível. Existe literatura discutindo isso. Mas eu não quero que você saia daqui falando: AMI é problema do gamma loop.
+
+Não.
+
+A AMI é multifatorial. O gamma loop é uma peça possível dentro de uma rede maior.
+
+Agora pensa em um paciente no primeiro ou segundo dia depois de uma cirurgia de joelho. O joelho está cheio, dolorido e a extensão ativa está ruim. Você pede uma contração isométrica do quadríceps. A patela quase não se move. A pessoa diz que está tentando com tudo.
+
+Nesse momento, simplesmente chamar aquilo de fraqueza muscular não explica o fenômeno.
+
+Pode haver força contrátil disponível que não está sendo acessada voluntariamente de maneira adequada.
+
+E isso importa porque a intervenção muda.
+
+Se eu suponho que o único problema é atrofia, minha solução automática será sobrecarga. Se existe uma barreira de ativação importante, eu preciso pensar também em como recuperar o acesso neural enquanto começo a reintroduzir carga.
+
+Agora outro cenário.
+
+A pessoa já está seis semanas depois da cirurgia. O derrame caiu muito. A dor está controlada. O quadríceps ainda está menor. Nesse momento, a atrofia provavelmente ganhou um peso maior na explicação da fraqueza.
+
+Percebe? O mecanismo dominante pode mudar com o tempo.
+
+Isso é muito mais útil do que usar AMI como um rótulo permanente.
+
+AMI não é uma identidade do paciente. É um fenômeno fisiológico que pode variar em magnitude conforme o estado articular e a evolução da reabilitação.
+
+Agora vamos subir um andar.
+
+Até aqui nós falamos bastante de medula. Só que uma lesão articular não termina na medula.
+
+A informação sensorial continua chegando a níveis superiores. E ao longo do tempo o sistema nervoso pode apresentar mudanças na organização corticospinal e intracortical.
+
+É aqui que entramos na terceira parte da aula: inibição cortical.
