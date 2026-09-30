@@ -1,0 +1,67 @@
+Agora vamos subir para o sistema corticospinal, porque é aqui que muitas interpretações ruins aparecem.
+
+Quando um estudo usa estimulação magnética transcraniana, ou TMS, ele não está medindo “o cérebro” de maneira genérica. Uma descarga de corrente na bobina gera um campo magnético rapidamente variável; esse campo atravessa o crânio e induz corrente elétrica no tecido cortical. Dependendo da orientação da bobina, intensidade e geometria cortical, populações neuronais diferentes são recrutadas.
+
+Sobre o córtex motor, a TMS pode gerar descargas corticospinais indiretas, as chamadas I-waves. Elas refletem atividade transsináptica de circuitos intracorticais sobre neurônios corticospinais. Em intensidades e orientações específicas também podem aparecer componentes mais diretos. Portanto, quando falamos de MEP, já estamos olhando para a saída integrada de uma cadeia: excitabilidade cortical, neurônios corticospinais, transmissão descendente, estado espinal, motoneurônios e músculo.
+
+Isso explica por que MEP não é sinônimo de excitabilidade cortical pura.
+
+O resting motor threshold, RMT, é a menor intensidade capaz de produzir MEP de um critério definido em um músculo em repouso. O active motor threshold, AMT, é obtido durante contração. Threshold é influenciado fortemente por excitabilidade de membrana e propriedades axonais e não deve ser interpretado como medida direta de inibição sináptica.
+
+As curvas input-output ou recruitment curves adicionam outra dimensão: aumentamos a intensidade da TMS e observamos como a amplitude do MEP cresce. A inclinação da curva informa o ganho do sistema corticospinal dentro daquele estado experimental. Novamente: cadeia inteira, não apenas córtex.
+
+Agora chegamos à SICI, short-interval intracortical inhibition.
+
+No paradigma clássico, um conditioning stimulus subthreshold precede um test stimulus suprathreshold por aproximadamente um a cinco milissegundos, dependendo do protocolo. O conditioning stimulus, sozinho, não deveria produzir um MEP relevante, mas modifica o estado dos circuitos intracorticais. Quando o test stimulus chega, o MEP condicionado fica menor que o MEP não condicionado.
+
+Farmacologia mostra que moduladores positivos de receptores GABA-A, como benzodiazepínicos, aumentam SICI em protocolos clássicos. Isso sustenta forte participação GABA-Aérgica.
+
+Mas aqui precisamos ser tecnicamente rigorosos. SICI não mede concentração de GABA. SICI é um fenômeno eletrofisiológico dependente de intensidade do condicionante, intensidade do teste, intervalo interestímulo, orientação da bobina, estado de contração e composição das I-waves recrutadas. Dois laboratórios podem chamar suas medidas de SICI e ainda assim sondar redes parcialmente diferentes se os parâmetros não forem equivalentes.
+
+Além disso, a relação entre amplitude condicionada e não condicionada pode gerar armadilhas matemáticas. Se o test MEP muda entre condições, a razão de SICI pode mudar mesmo sem uma alteração simples do circuito inibitório. Por isso estudos modernos tentam controlar o tamanho do MEP teste ou utilizar curvas de recrutamento condicionadas.
+
+LICI, long-interval intracortical inhibition, opera em outra escala temporal. Dois estímulos suprathreshold separados tipicamente por dezenas a centenas de milissegundos produzem supressão da segunda resposta. Evidência farmacológica relaciona LICI principalmente a receptores GABA-B.
+
+GABA-A e GABA-B não são apenas dois nomes para a mesma inibição.
+
+GABA-A é um receptor ionotrópico, um canal de cloreto, com cinética relativamente rápida. GABA-B é metabotrópico, acoplado à proteína G; pode reduzir influxo de cálcio pré-sináptico, aumentar condutância de potássio pós-sináptica e produzir efeitos mais lentos e prolongados. Portanto, SICI e LICI interrogam escalas temporais e microcircuitos diferentes.
+
+E esses circuitos interagem.
+
+Estudos de triple-pulse TMS mostram que LICI pode reduzir SICI, possivelmente por mecanismos GABA-B pré-sinápticos sobre interneurônios GABA-Aérgicos. Isso é fascinante porque mostra que “mais inibição” em um circuito pode resultar em menos expressão de outra forma de inibição. A rede não é aditiva de maneira trivial.
+
+Agora o cortical silent period.
+
+Peça para uma pessoa manter contração voluntária. Aplique um pulso suprathreshold de TMS. Você observa um MEP seguido de uma interrupção da atividade EMG voluntária. A fase inicial do silent period pode incluir contribuição espinal; a fase tardia depende predominantemente de mecanismos corticais e tem forte associação com GABA-B.
+
+Só que a duração do CSP é extremamente sensível à metodologia: intensidade do estímulo, força da contração, músculo estudado, definição algorítmica do início e fim do silêncio. Portanto, comparar CSP entre estudos sem olhar método é um erro.
+
+Agora podemos retornar ao LCA.
+
+Uma meta-análise de estudos com TMS em indivíduos com lesão ou reconstrução do ligamento cruzado anterior encontrou limiar motor mais alto e alterações em SICI, além de diferenças menores em MEP. Isso é importante, mas não autoriza a frase “o LCA aumenta a inibição cortical”.
+
+Por quê? Porque motor threshold e SICI não são a mesma dimensão fisiológica. Um threshold mais alto sugere que é necessária maior intensidade para evocar resposta segundo aquele critério. Uma mudança em SICI fala de circuitos intracorticais condicionados. Um MEP fala da saída integrada corticospinal. Se cada variável se move em direção diferente, a conclusão correta é reorganização da excitabilidade em múltiplos componentes, não uma seta única chamada inibição.
+
+Isso também muda nossa leitura de bilateralidade.
+
+Alguns achados aparecem no membro não lesionado ou em representações contralaterais. Isso lembra que lesão unilateral não produz necessariamente adaptação neural estritamente unilateral. Estratégia locomotora, descarga sensorial, uso do membro e redes inter-hemisféricas podem modificar o sistema de maneira mais ampla.
+
+Agora pense na força máxima voluntária.
+
+Se a pessoa produz baixo torque, podemos usar interpolated twitch ou central activation ratio para estimar déficit de ativação voluntária. Durante uma contração máxima, um estímulo elétrico sobre o nervo ou músculo pode produzir força adicional. Quanto maior o incremento provocado externamente, maior a evidência de que o comando voluntário não estava explorando toda a capacidade contrátil disponível.
+
+Isso nos permite separar, pelo menos parcialmente, capacidade muscular de acesso neural.
+
+Mas nem CAR é verdade absoluta. O método depende da relação entre estímulo e torque, superposição, voluntariedade real, familiarização e modelagem matemática. O professor precisa aprender a interpretar medidas como instrumentos com pressupostos, não como janelas transparentes para o sistema nervoso.
+
+E isso vale para tudo nesta aula.
+
+H-reflex não é “inibição espinal”.
+MEP não é “atividade do cérebro”.
+SICI não é “quantidade de GABA”.
+CSP não é “freio cortical”.
+CAR não é “percentual exato do músculo que o cérebro ligou”.
+
+Cada variável é uma perturbação experimental com uma inferência fisiológica delimitada.
+
+Essa distinção é o que separa leitura científica de leitura superficial.
