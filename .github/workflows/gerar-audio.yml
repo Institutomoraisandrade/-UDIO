@@ -1,4 +1,4 @@
-name: Gerar audio neural
+name: Gerar aula completa AMI e inibicao
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ on:
 jobs:
   gerar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,20 +28,25 @@ jobs:
       - name: Instalar Edge TTS
         run: pip install -r requirements.txt
 
-      - name: Gerar MP3
+      - name: Montar roteiro completo
+        run: |
+          cat roteiros/aula-final-parte-1.txt roteiros/aula-final-parte-2.txt roteiros/aula-final-parte-3.txt roteiros/aula-final-parte-4.txt > roteiros/aula-final-completa.txt
+          wc -w roteiros/aula-final-completa.txt
+
+      - name: Gerar MP3 completo
         run: |
           mkdir -p output
-          python src/generate.py --input roteiros/teste.txt --output output/teste-antonio.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
+          python src/generate.py --input roteiros/aula-final-completa.txt --output output/aula-AMI-inibicao-completa.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
 
       - name: Validar arquivo
         run: |
-          test -s output/teste-antonio.mp3
-          ls -lh output/teste-antonio.mp3
+          test -s output/aula-AMI-inibicao-completa.mp3
+          ls -lh output/aula-AMI-inibicao-completa.mp3
 
-      - name: Publicar MP3
+      - name: Publicar aula
         uses: actions/upload-artifact@v4
         with:
-          name: teste-voz-antonio-ptbr
-          path: output/teste-antonio.mp3
+          name: aula-AMI-inibicao-AntonioNeural
+          path: output/aula-AMI-inibicao-completa.mp3
           if-no-files-found: error
           retention-days: 7
