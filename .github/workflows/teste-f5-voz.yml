@@ -17,11 +17,10 @@ jobs:
       - name: Validar referencia
         run: |
           test -s voice_tests/voz_daniel_master.mp3 || (echo "Falta voice_tests/voz_daniel_master.mp3" && exit 2)
-      - name: Instalar F5-TTS PT-BR
+      - name: Instalar F5-TTS e dependencias
         run: |
-          git clone --depth 1 https://github.com/Cataldir/f5-tts-pt-br.git /tmp/f5ptbr
           pip install -U pip
-          pip install -e /tmp/f5ptbr
+          pip install "f5-tts>=1.1.0" "huggingface-hub>=0.20" soundfile pydub
       - name: Preparar referencia
         run: |
           mkdir -p output
