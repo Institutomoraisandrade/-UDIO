@@ -34,8 +34,7 @@ jobs:
           EOF
       - name: Gerar Edge
         run: |
-          edge-tts --voice pt-BR-AntonioNeural --rate=+8% --pitch=-2Hz --file /tmp/teste.txt --write-media /tmp/edge.mp3
-          ffmpeg -y -i /tmp/edge.mp3 -af "loudnorm=I=-16:TP=-1.5:LRA=11" -codec:a libmp3lame -b:a 192k output/TESTE_A_EDGE_PADRAO_DANIEL.mp3
+          edge-tts --voice pt-BR-AntonioNeural --rate=+8% --pitch=-2Hz --file /tmp/teste.txt --write-media output/TESTE_A_EDGE_PADRAO_DANIEL.mp3
       - name: Validar
         run: test -s output/TESTE_A_EDGE_PADRAO_DANIEL.mp3
       - uses: actions/upload-artifact@v4
