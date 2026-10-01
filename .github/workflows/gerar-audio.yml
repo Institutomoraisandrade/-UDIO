@@ -1,4 +1,4 @@
-name: Gerar aula PICS e Yoga
+name: Gerar aula MASTER PICS e PEF
 
 on:
   workflow_dispatch:
@@ -17,30 +17,24 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Instalar Edge TTS
-        run: pip install -r requirements.txt
-      - name: Montar roteiro
+      - run: pip install -r requirements.txt
+      - name: Montar aula completa
         run: |
-          cat roteiros/pics-yoga-parte-1.txt roteiros/pics-yoga-parte-2.txt roteiros/pics-yoga-parte-3.txt > roteiros/aula-pics-yoga-completa.txt
-          wc -w roteiros/aula-pics-yoga-completa.txt
+          cat roteiros/pics-master-parte-1.txt roteiros/pics-master-parte-2.txt roteiros/pics-master-parte-3.txt roteiros/pics-master-parte-4.txt > roteiros/aula-master-pics-pef.txt
+          wc -w roteiros/aula-master-pics-pef.txt
       - name: Gerar MP3
         run: |
           mkdir -p output
-          python src/generate.py --input roteiros/aula-pics-yoga-completa.txt --output output/aula-PICS-Yoga-biopsicossocial.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
+          python src/generate.py --input roteiros/aula-master-pics-pef.txt --output output/Aula_MASTER_PICS_PEF.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
       - name: Validar
-        run: |
-          test -s output/aula-PICS-Yoga-biopsicossocial.mp3
-          ls -lh output/aula-PICS-Yoga-biopsicossocial.mp3
-      - name: Publicar
-        uses: actions/upload-artifact@v4
+        run: test -s output/Aula_MASTER_PICS_PEF.mp3
+      - uses: actions/upload-artifact@v4
         with:
-          name: aula-PICS-Yoga-biopsicossocial
-          path: output/aula-PICS-Yoga-biopsicossocial.mp3
+          name: Aula-MASTER-PICS-PEF
+          path: output/Aula_MASTER_PICS_PEF.mp3
           if-no-files-found: error
           retention-days: 7
