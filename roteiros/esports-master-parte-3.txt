@@ -1,0 +1,35 @@
+Agora vamos conectar saúde e performance.
+
+Se o atleta apresenta dor, fadiga, sono insuficiente e recuperação inadequada, é plausível que isso possa competir com a qualidade do treinamento. Mas não devemos transformar plausibilidade em causalidade comprovada.
+
+O dado mais interessante é outro: exercício físico pode fazer parte da preparação do e-atleta.
+
+Uma revisão sistemática de dois mil e vinte e seis reuniu estudos experimentais sobre exercício e performance em e-sports. Intervenções agudas apresentaram resultados favoráveis em variáveis como função executiva, tempo de reação, precisão de mira e algumas métricas dentro do jogo. Quando olhamos treinamento crônico, os resultados para performance específica são mais mistos.
+
+Então não podemos prometer: faça musculação e automaticamente jogará melhor. Mas também não faz sentido tratar exercício apenas como compensação pelo tempo sentado.
+
+O exercício tem valor próprio para saúde, capacidade física e tolerância à rotina. E pode, em determinadas condições, influenciar componentes cognitivos relevantes para performance.
+
+Agora chegamos à avaliação do profissional de Educação Física. Eu começaria com quatro perguntas.
+
+Qual é a demanda? Qual é a exposição? Qual é a capacidade atual? E qual fator modificável oferece maior oportunidade de intervenção?
+
+Na demanda, identificamos o jogo, função do atleta, periféricos, calendário competitivo e características da sessão. Na exposição, horas por dia, distribuição em blocos, pausas, tempo sentado e mudanças de posição.
+
+Nos sintomas, localização, intensidade, frequência, irritabilidade e impacto funcional. Na capacidade, avaliamos força, resistência, mobilidade relevante, controle motor, condicionamento e tolerância.
+
+Também rastreamos atividade física semanal, comportamento sedentário, sono, percepção de recuperação, estresse, ergonomia e aspectos alimentares.
+
+Agora entra a tecnologia.
+
+No brainstorm apareceu a ideia de utilizar inteligência artificial para avaliação postural. Eu manteria a tecnologia, mas mudaria a pergunta.
+
+Não quero uma câmera dizendo: sua cabeça está em vinte graus, então essa é a causa da sua dor.
+
+Quero usar sensores e visão computacional para quantificar exposição. Quanto tempo o atleta ficou na mesma posição? Quantas vezes mudou? Como cabeça e tronco se comportam ao longo de uma sessão? Quando surgem sintomas? Quando aparece fadiga? Quanto tempo passa entre pausas?
+
+A cadeia correta é: sensor, exposição, cruzamento com sintomas e performance, decisão.
+
+Não é: sensor, ângulo diferente do ideal, diagnóstico.
+
+A tecnologia passa de juiz postural para ferramenta de monitoramento.
