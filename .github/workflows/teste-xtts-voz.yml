@@ -27,7 +27,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Validar referencia
         run: |
-          test -s voice_refs/voz_daniel_master.mp3 || (echo "Falta voice_refs/voz_daniel_master.mp3" && exit 2)
+          test -s voice_tests/voz_daniel_master.mp3 || (echo "Falta voice_tests/voz_daniel_master.mp3" && exit 2)
       - name: Instalar XTTS
         run: |
           pip install -U pip
@@ -35,7 +35,7 @@ jobs:
       - name: Preparar referencia
         run: |
           mkdir -p output
-          ffmpeg -y -i voice_refs/voz_daniel_master.mp3 -ac 1 -ar 24000 /tmp/voz_daniel_ref.wav
+          ffmpeg -y -i voice_tests/voz_daniel_master.mp3 -ac 1 -ar 24000 /tmp/voz_daniel_ref.wav
       - name: Gerar clonagem XTTS
         env:
           COQUI_TOS_AGREED: "1"
