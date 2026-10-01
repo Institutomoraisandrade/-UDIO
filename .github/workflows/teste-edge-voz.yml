@@ -1,0 +1,45 @@
+name: Teste de voz Edge - padrao Daniel
+
+on:
+  push:
+    paths:
+      - "trigger/teste-edge.txt"
+  workflow_dispatch:
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts
+      - name: Criar texto de teste
+        run: |
+          mkdir -p output
+          cat > /tmp/teste.txt <<'EOF'
+          Quando a gente pensa em um atleta de e-sports, o primeiro erro é olhar apenas para a postura.
+
+          A pergunta mais importante não é se ele está sentado de uma forma perfeita.
+
+          É entender quanto tempo ele permanece naquela posição... quanto ele varia de movimento... como está a capacidade física... e como ele se recupera.
+
+          Porque, no final das contas, o problema não é simplesmente repetir um movimento.
+
+          O problema aparece quando a demanda supera aquilo que essa pessoa consegue tolerar.
+
+          Percebe a diferença?
+          EOF
+      - name: Gerar Edge
+        run: |
+          edge-tts --voice pt-BR-AntonioNeural --rate=+8% --pitch=-2Hz --file /tmp/teste.txt --write-media /tmp/edge.mp3
+          ffmpeg -y -i /tmp/edge.mp3 -af "loudnorm=I=-16:TP=-1.5:LRA=11" -codec:a libmp3lame -b:a 192k output/TESTE_A_EDGE_PADRAO_DANIEL.mp3
+      - name: Validar
+        run: test -s output/TESTE_A_EDGE_PADRAO_DANIEL.mp3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TESTE-A-EDGE-PADRAO-DANIEL
+          path: output/TESTE_A_EDGE_PADRAO_DANIEL.mp3
+          retention-days: 7
