@@ -1,4 +1,4 @@
-name: Gerar aula V3 avancada AMI e inibicao
+name: Gerar aula PICS e Yoga
 
 on:
   workflow_dispatch:
@@ -25,22 +25,22 @@ jobs:
           python-version: "3.12"
       - name: Instalar Edge TTS
         run: pip install -r requirements.txt
-      - name: Montar roteiro V3
+      - name: Montar roteiro
         run: |
-          cat roteiros/v3-parte-1.txt roteiros/v3-parte-2.txt roteiros/v3-parte-3.txt > roteiros/aula-v3-completa.txt
-          wc -w roteiros/aula-v3-completa.txt
-      - name: Gerar MP3 V3
+          cat roteiros/pics-yoga-parte-1.txt roteiros/pics-yoga-parte-2.txt roteiros/pics-yoga-parte-3.txt > roteiros/aula-pics-yoga-completa.txt
+          wc -w roteiros/aula-pics-yoga-completa.txt
+      - name: Gerar MP3
         run: |
           mkdir -p output
-          python src/generate.py --input roteiros/aula-v3-completa.txt --output output/aula-V3-AMI-inibicao-avancada.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
-      - name: Validar arquivo
+          python src/generate.py --input roteiros/aula-pics-yoga-completa.txt --output output/aula-PICS-Yoga-biopsicossocial.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
+      - name: Validar
         run: |
-          test -s output/aula-V3-AMI-inibicao-avancada.mp3
-          ls -lh output/aula-V3-AMI-inibicao-avancada.mp3
-      - name: Publicar aula V3
+          test -s output/aula-PICS-Yoga-biopsicossocial.mp3
+          ls -lh output/aula-PICS-Yoga-biopsicossocial.mp3
+      - name: Publicar
         uses: actions/upload-artifact@v4
         with:
-          name: aula-V3-AMI-inibicao-avancada
-          path: output/aula-V3-AMI-inibicao-avancada.mp3
+          name: aula-PICS-Yoga-biopsicossocial
+          path: output/aula-PICS-Yoga-biopsicossocial.mp3
           if-no-files-found: error
           retention-days: 7
