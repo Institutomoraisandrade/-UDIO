@@ -1,6 +1,9 @@
 name: Teste C - XTTS v2 voz Daniel
 
 on:
+  push:
+    paths:
+      - "trigger/teste-xtts.txt"
   workflow_dispatch:
     inputs:
       accept_xtts_model_terms:
@@ -31,6 +34,7 @@ jobs:
       - name: Instalar XTTS
         run: |
           pip install -U pip
+          pip install --index-url https://download.pytorch.org/whl/cpu torch torchaudio
           pip install coqui-tts
       - name: Preparar referencia
         run: |
