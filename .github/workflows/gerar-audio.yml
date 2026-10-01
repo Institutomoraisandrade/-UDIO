@@ -1,4 +1,4 @@
-name: Gerar aula MASTER PICS e PEF
+name: Gerar aula MASTER E-sports e Saude
 
 on:
   workflow_dispatch:
@@ -24,17 +24,17 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Montar aula completa
         run: |
-          cat roteiros/pics-master-parte-1.txt roteiros/pics-master-parte-2.txt roteiros/pics-master-parte-3.txt roteiros/pics-master-parte-4.txt > roteiros/aula-master-pics-pef.txt
-          wc -w roteiros/aula-master-pics-pef.txt
+          cat roteiros/esports-master-parte-1.txt roteiros/esports-master-parte-2.txt roteiros/esports-master-parte-3.txt roteiros/esports-master-parte-4.txt roteiros/esports-master-parte-5.txt > roteiros/aula-master-esports-saude.txt
+          wc -w roteiros/aula-master-esports-saude.txt
       - name: Gerar MP3
         run: |
           mkdir -p output
-          python src/generate.py --input roteiros/aula-master-pics-pef.txt --output output/Aula_MASTER_PICS_PEF.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
+          python src/generate.py --input roteiros/aula-master-esports-saude.txt --output output/Aula_MASTER_ESPORTS_SAUDE.mp3 --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="+0Hz"
       - name: Validar
-        run: test -s output/Aula_MASTER_PICS_PEF.mp3
+        run: test -s output/Aula_MASTER_ESPORTS_SAUDE.mp3
       - uses: actions/upload-artifact@v4
         with:
-          name: Aula-MASTER-PICS-PEF
-          path: output/Aula_MASTER_PICS_PEF.mp3
+          name: Aula-MASTER-ESPORTS-SAUDE
+          path: output/Aula_MASTER_ESPORTS_SAUDE.mp3
           if-no-files-found: error
           retention-days: 7
