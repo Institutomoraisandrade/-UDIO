@@ -1,6 +1,9 @@
 name: Teste B - F5 PT-BR voz Daniel
 
 on:
+  push:
+    paths:
+      - "trigger/teste-f5.txt"
   workflow_dispatch:
 
 jobs:
