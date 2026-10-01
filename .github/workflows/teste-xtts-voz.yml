@@ -1,0 +1,51 @@
+name: Teste C - XTTS v2 voz Daniel
+
+on:
+  workflow_dispatch:
+    inputs:
+      accept_xtts_model_terms:
+        description: "Confirma que voce aceita os termos/licenca do modelo XTTS v2 para este teste?"
+        required: true
+        default: "nao"
+        type: choice
+        options:
+          - "nao"
+          - "sim"
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Validar termos
+        run: test "${{ inputs.accept_xtts_model_terms }}" = "sim" || (echo "Termos nao confirmados; abortando." && exit 3)
+      - name: Dependencias do sistema
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Validar referencia
+        run: |
+          test -s voice_refs/voz_daniel_master.mp3 || (echo "Falta voice_refs/voz_daniel_master.mp3" && exit 2)
+      - name: Instalar XTTS
+        run: |
+          pip install -U pip
+          pip install coqui-tts
+      - name: Preparar referencia
+        run: |
+          mkdir -p output
+          ffmpeg -y -i voice_refs/voz_daniel_master.mp3 -ac 1 -ar 24000 /tmp/voz_daniel_ref.wav
+      - name: Gerar clonagem XTTS
+        env:
+          COQUI_TOS_AGREED: "1"
+        run: |
+          python scripts/test_xtts_v2.py             --ref /tmp/voz_daniel_ref.wav             --text voice_tests/teste_comparativo.txt             --out output/TESTE_C_XTTS_DANIEL.wav
+          ffmpeg -y -i output/TESTE_C_XTTS_DANIEL.wav -codec:a libmp3lame -b:a 192k output/TESTE_C_XTTS_DANIEL.mp3
+      - name: Validar
+        run: test -s output/TESTE_C_XTTS_DANIEL.mp3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TESTE-C-XTTS-DANIEL
+          path: output/TESTE_C_XTTS_DANIEL.mp3
+          retention-days: 7
